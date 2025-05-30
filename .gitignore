@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtualenv
+langchain-env/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Model/Cache/Checkpoints
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+.cache/
+models/
+
+# PDFs (optional if large or confidential)
+pdfs/
